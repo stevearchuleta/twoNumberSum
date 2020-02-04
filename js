@@ -1,7 +1,9 @@
+/*
 Approach 1.
 FOR LOOP
 O(N^2)-time complexity
 O(N)-space complexity
+*/
 
 function twoNumberSum (array, targetSum) {
   const N = array.length;
@@ -20,11 +22,13 @@ function twoNumberSum (array, targetSum) {
       return [];
      }
      
-     
+ 
+ /*
 Approach 2.
 HASH TABLE
 O(N)-time complexity
 O(N)-space complexity
+*/
   
 function twoNumberSum (array, targetSum) {
   const N = array.length;
@@ -44,10 +48,12 @@ function twoNumberSum (array, targetSum) {
 }
 
 
+/*
 Approach 3.
 SORT w/ POINTERS
 O(Nlog(N))-time complexity
 O(1)-space complexity
+*/
 
 function twoNumberSum (array, targetSum) {
   const N = array.length;
